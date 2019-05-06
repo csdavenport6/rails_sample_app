@@ -2,6 +2,7 @@ connor:
   name: Connor Davenport 
   email: cdavenport@validuser.com
   password_digest: <%= User.digest('password') %>
+  admin: true
 
 archer: 
   name: Sterling Archer
